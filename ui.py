@@ -15,7 +15,7 @@ def run_game():
     window = tk.Tk()
     window.title("Welcome To Tic-Tac-Toe Python Version")
     window.geometry("450x650")  # Adjusted to fit larger buttons
-    window.resizable(False, False)
+    window.resizable(True, True)
     window.configure(bg="#333333")
 
     # Create a frame to center the buttons
